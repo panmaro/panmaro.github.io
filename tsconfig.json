@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./",
+    "target" : "es3",
+    "lib": ["es5", "es2017", "dom"],
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "./*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
